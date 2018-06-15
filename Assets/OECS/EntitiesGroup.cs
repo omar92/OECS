@@ -38,7 +38,7 @@ namespace OECS
                   //  Debug.Log("Time:" + Time.time);
                  //   Debug.Log("Time.time - time:" + (Time.time - time));
                  //   Debug.Log("Time.deltaTime" + (Time.deltaTime));
-                    if (Time.time - time < Time.deltaTime)
+                    if (Time.time - time < Time.fixedTime)
                     {
                         action(m_List[i]);
                     }
