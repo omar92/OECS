@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
-using System.Collections;
-using System;
 
 namespace OECS
 {
-    public abstract class System : MonoBehaviour
+    public abstract class EntitySystem : MonoBehaviour
     {
         public EntitiesGroup entitiesGroup;
+
 
         //void Awake()
         //{

@@ -3,7 +3,7 @@ using System.Collections;
 using OECS;
 using System;
 
-public class SeaSystem : OECS.System
+public class SeaSystem : OECS.EntitySystem
 {
 
     public TransformArray2DVariable mapCellsRef;
